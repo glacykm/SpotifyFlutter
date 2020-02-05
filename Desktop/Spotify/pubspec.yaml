@@ -1,0 +1,39 @@
+name: spotibee
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:     
+    - assets/images/spotify_logo.png
+    - assets/images/facebook_logo.png
+    - assets/images/spotify2_logo.png
+    - assets/images/album1.jpg
+    - assets/images/album2.jpg
+    - assets/images/album3.jpg
+    - assets/images/album4.jpg
+    - assets/images/album5.jpg
+    - assets/images/album6.jpg
+    - assets/images/album7.jpg
+    - assets/images/album8.jpg
+fonts:
+  family: Spotifyfont
+  fonts:
+    asset: fonts/CircularSpUIra-Bold.ttf
+ 
+
+
